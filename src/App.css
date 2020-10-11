@@ -1,0 +1,10 @@
+body {
+    background-color: #FFAFCC;
+}
+
+.navBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8a1c3 !important;
+}
