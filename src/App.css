@@ -1,10 +1,14 @@
 body {
-    background-color: #FFAFCC;
+    background-color: white;
+    font-family: "Charcoal, sans-serif";
+
 }
 
 .navBottom {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f8a1c3 !important;
+    margin-top: 50px !important;
+    background-color: #030954 !important;
+    z-index: 20;
 }

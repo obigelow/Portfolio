@@ -11,7 +11,7 @@ function Home() {
 
     const styles = {
         header: {
-            fontSize: "40px",
+            fontSize: "60px",
             marginTop: "10px",
 
             
@@ -19,20 +19,20 @@ function Home() {
         },
         row: {
             marginTop: "30px",
-            height: "200px",
+            height: "500px",
             zIndex: "0",
             fontFamily: "Charcoal, sans-serif",
             textAlign: "center",
             color: "whitesmoke",
-            backgroundColor: "#FFC8DD",
+            backgroundColor: "#030954",
         },
 
         button: {
-            backgroundColor: "#CDB4DB",
+            backgroundColor: "#d100ae",
             border: "none",
-            marginTop: "15px",
-            width: "25%",
-            height: "50px"
+            marginTop: "100px",
+            width: "33%",
+            height: "75px"
         }
     }
 
@@ -43,12 +43,12 @@ function Home() {
                 <Col>
 
                     <h1 style={styles.header} >
-                        Hello I'm <span>Oliver Bigelow</span> I am a full-stack web developer.
+                        Hello I'm <span style={{color: "#d100ae"}}>Oliver Bigelow</span> I am a full-stack web developer.
                     </h1>
 
                     <Button style={styles.button}>
 
-                        Check my Portfolio!
+                        <a href="/portfolio" style={{color: "white"}}>Check out my Portfolio!</a>
 
                     </Button>
 

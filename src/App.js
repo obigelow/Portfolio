@@ -2,11 +2,13 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-// import Container from 'react-bootstrap/Container'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home"
+import About from "./pages/About"
+import Portfolio from "./pages/Portfolio"
+
+
 
 import "./App.css"
 
@@ -19,15 +21,27 @@ function App() {
   return (
     <div className="App">
       <Navbar className="navBottom" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Oliver Bigelow</Navbar.Brand>
+        <Navbar.Brand href="/">Oliver Bigelow</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Portfolio</Nav.Link>
-          <Nav.Link href="#pricing">Resume</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+          {/* <Nav.Link href="#pricing">Resume</Nav.Link> */}
         </Nav>
       </Navbar>
       <Container>
-        <Home />
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/about">
+              <About />
+            </Route>
+            <Route exact path="/portfolio">
+              <Portfolio />
+            </Route>
+          </Switch>
+        </Router>
       </Container>
 
     </div>
