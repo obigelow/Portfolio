@@ -33,7 +33,7 @@ function Portfolio() {
             marginTop: "30px",
             width: "100%",
             color: "black",
-            height: "450px"
+            minHeight: "500px"
         }
     }
 

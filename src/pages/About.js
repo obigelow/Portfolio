@@ -22,7 +22,7 @@ function About() {
         row: {
             zIndex: "-20",
             marginTop: "30px",
-            height: "1000px",
+            height: "2000px",
             zIndex: "0",
             fontFamily: "Charcoal, sans-serif",
             textAlign: "center",
@@ -67,6 +67,11 @@ function About() {
                     </p>
                     <p style={styles.p}>
                         Check out my Portfolio!
+                    </p>
+                    <h1>Contact: </h1>
+                    <p style={styles.p}>
+                        Email: oelucy@gmail.com
+                        Github: obigelow
                     </p>
 
 
