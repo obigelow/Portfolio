@@ -71,6 +71,7 @@ function About() {
                     <h1>Contact: </h1>
                     <p style={styles.p}>
                         Email: oelucy@gmail.com
+                        <hr/>
                         Github: obigelow
                     </p>
 

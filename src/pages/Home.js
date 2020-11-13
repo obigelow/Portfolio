@@ -2,12 +2,15 @@ import React from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import {useHistory} from "react-router-dom"
 
 
 
 
 
 function Home() {
+
+    let history = useHistory();
 
     const styles = {
         header: {
@@ -36,6 +39,9 @@ function Home() {
         }
     }
 
+    const TakeToPortfolio = () => {
+        history.push("/portfolio")
+    }
     return (
         <div>
 
@@ -46,9 +52,9 @@ function Home() {
                         Hello I'm <span style={{color: "#d100ae"}}>Oliver Bigelow</span> I am a full-stack web developer.
                     </h1>
 
-                    <Button style={styles.button}>
+                    <Button style={styles.button} onClick = {TakeToPortfolio}>
 
-                        <a href="/portfolio" style={{color: "white"}}>Check out my Portfolio!</a>
+                        Check out my Portfolio!
 
                     </Button>
 

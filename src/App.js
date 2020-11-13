@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
+import Resume from "./pages/Resume"
+
 
 
 
@@ -25,7 +27,7 @@ function App() {
         <Nav className="mr-auto">
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-          {/* <Nav.Link href="#pricing">Resume</Nav.Link> */}
+          <Nav.Link href="/resume">Resume</Nav.Link>
         </Nav>
       </Navbar>
       <Container>
@@ -39,6 +41,9 @@ function App() {
             </Route>
             <Route exact path="/portfolio">
               <Portfolio />
+            </Route>
+            <Route exact path="/resume">
+              <Resume />
             </Route>
           </Switch>
         </Router>
