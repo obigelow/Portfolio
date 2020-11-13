@@ -1,28 +1,41 @@
-# Portfolio
-## Installation
- To install necessary dependencies, run the following command:
-```
-npm i
-```
-## Credits
-Oliver Bigelow
-## Table of Contents 
- * [Title](#portfolio)
- * [Description](#Description)
- * [Installation](#Installation)
- * [Usage](#Usage)
- * [Credits](#Credits)
- * [License](#License)
- * [Tests](#Tests)
- * [Question](#Question)
-## Question
- * [GitHub Profile](https://github.com/obigelow)
-* Email: undefined * If you have any questions email me and checkout my github profile for updates.
-## Tests
-To run tests, run the following command:
-```npm test
-```
-## Description
-This is my portfolio website where people can see my recent work and contact me
+# Porfolio Website
+
 ## Usage
-Its just a basic website that you can go on
+
+You can navigate through a few pages to find my contact info and see my projects.
+
+## Credits
+
+Oliver Bigelow
+
+## Tests
+
+To run tests, run the following command:
+
+```npm test
+
+```
+
+## Question
+
+- [GitHub Profile](https://github.com/obigelow)
+- Email: oelucy@gmail.com \* If you have any questions email me and checkout my github profile for updates.
+
+## Table of Contents
+
+- [Title](#porfolio-website)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Credits](#Credits)
+- [License](#License)
+- [Tests](#Tests)
+- [Question](#Question)
+
+## Deployed Link
+- [Portfolio](https://salty-inlet-40443.herokuapp.com/portfolio)
+
+
+## Description
+
+This is the website where all my work lives.
